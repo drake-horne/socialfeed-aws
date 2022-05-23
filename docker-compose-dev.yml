@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  socialfeed:
+    container_name: socialfeed
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "8080:3000"

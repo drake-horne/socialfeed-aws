@@ -1,0 +1,20 @@
+.form-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    border: 1px;
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    height: 230px;
+    width: 700px;
+    padding: 1em;
+
+}
+
+Form{
+    width:30rem;
+}
